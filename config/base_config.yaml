@@ -1,0 +1,8 @@
+scenario_name: "Baseline_Single_Product"
+months: 12
+initial_inventory: 0
+fixed_workforce: 100
+capacity_per_worker: 20
+holding_cost: 2.0
+production_cost: 10.0
+demand: [1000, 1200, 1100, 1300, 1500, 1400, 1200, 1100, 1000, 1300, 1500, 1600]

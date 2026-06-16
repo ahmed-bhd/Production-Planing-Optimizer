@@ -1,0 +1,23 @@
+# Multi-Product Production Planning Configuration
+scenario_name: "Multi-Product Production Planning Configuration"
+months: 12
+products:
+  - id: "Product_A"
+    demand: [100, 120, 110, 130, 140, 150, 120, 110, 160, 170, 150, 140]
+    production_cost: 10.0
+    holding_cost: 2.0
+    capacity_usage: 1.5 # Hours required per unit
+  - id: "Product_B"
+    demand: [80, 90, 85, 95, 100, 110, 95, 90, 120, 130, 110, 100]
+    production_cost: 12.0
+    holding_cost: 2.5
+    capacity_usage: 2.0 # Hours required per unit
+
+workforce:
+  initial_workers: 50
+  capacity_per_worker: 160 # Regular hours per month
+  regular_wage: 3000
+  hiring_cost: 500
+  firing_cost: 800
+  overtime_cost_per_hour: 25
+  max_overtime_per_worker: 20

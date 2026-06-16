@@ -1,0 +1,19 @@
+months: 12
+initial_workers: 40
+
+# Update these in config/infeasible_demand_config.yaml
+workforce:
+  initial_workers: 40
+  max_workers: 100
+  capacity_per_worker: 10
+  hiring_cost: 10
+  firing_cost: 10
+  regular_wage: 100          # If this is extremely high, the solver might avoid hiring/working
+  
+products:
+  - id: "P1"
+    production_cost: 5      # Very cheap production
+    holding_cost: 1
+    backlog_cost: 10000     # Extremely high penalty
+    capacity_usage: 1
+    demand: [300, 350, 500, 600, 400, 300, 300, 300, 300, 300, 300, 300]
