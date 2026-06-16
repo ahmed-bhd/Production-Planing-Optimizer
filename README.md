@@ -43,9 +43,9 @@ The solution follows a structured Linear Programming (LP) workflow:
    git clone [https://github.com/yourusername/production-planning-optimizer.git](https://github.com/yourusername/production-planning-optimizer.git)
 
 ### Execution Scenario:
-   python main.py --scenario 1 --months 12
-   python main.py --scenario 2 --months 12
-   python main.py --scenario 3 --months 12
+   * python main.py --scenario 1 --months 12
+   * python main.py --scenario 2 --months 12
+   * python main.py --scenario 3 --months 12
 
 ## 8. Project Structure
 /production-planning-optimizer
