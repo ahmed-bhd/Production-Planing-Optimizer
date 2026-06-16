@@ -1,7 +1,5 @@
 # Production-Planing-Optimizer
 
-# Production Planning Optimizer
-
 ## 1. Introduction
 The **Production Planning Optimizer** is a decision-support tool designed to solve complex supply chain manufacturing problems. By leveraging Linear Programming (PuLP), this project helps operations managers minimize total costs while balancing workforce capacity, production schedules, inventory levels, and customer backlogs across multiple scenarios.
 
